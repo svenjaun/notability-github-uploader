@@ -4,12 +4,16 @@
 
 - Backup Notability in Google Drive
 - Create Project: https://console.cloud.google.com/projectcreate
-- API Key erstellen: https://developers.google.com/workspace/guides/create-credentials#create_credentials_for_a_service_account
+- Create API Key: Change url!!! 
+  - https://console.cloud.google.com/apis/library/drive.googleapis.com?project=<your-project-id!!!>
   - => Desktop Application
-  - #create_credentials_for_a_service_account
+    - Maybe you have to configure OAuth with some data
 
 - Active Google Drive API. Change url!!! 
   - https://console.cloud.google.com/apis/library/drive.googleapis.com?project=<your-project-id!!!>
+
+
+
 
 ## Pip install 
 `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
