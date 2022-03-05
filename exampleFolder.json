@@ -1,0 +1,93 @@
+{
+    "kind": "drive#file",
+    "id": "128ml4RAJI-B-eef4fzgojOGdsTgj_sOK",
+    "name": "CYS",
+    "mimeType": "application/vnd.google-apps.folder",
+    "starred": false,
+    "trashed": false,
+    "explicitlyTrashed": false,
+    "parents": [
+        "1oFXEtlFKJ9ZjiL2YfF_S-oyVE0JLAj1N"
+    ],
+    "spaces": [
+        "drive"
+    ],
+    "version": "1",
+    "webViewLink": "https://drive.google.com/drive/folders/128ml4RAJI-B-eef4fzgojOGdsTgj_sOK",
+    "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder",
+    "hasThumbnail": false,
+    "thumbnailVersion": "0",
+    "viewedByMe": false,
+    "createdTime": "2022-02-24T13:52:59.027Z",
+    "modifiedTime": "2022-02-24T13:52:59.027Z",
+    "modifiedByMeTime": "2022-02-24T13:52:59.027Z",
+    "modifiedByMe": true,
+    "owners": [{
+        "kind": "drive#user",
+        "displayName": "Sven Jaun",
+        "photoLink": "https://lh3.googleusercontent.com/a/default-user=s64",
+        "me": true,
+        "permissionId": "03036434362112142936",
+        "emailAddress": "sjaun@gmx.ch"
+    }],
+    "lastModifyingUser": {
+        "kind": "drive#user",
+        "displayName": "Sven Jaun",
+        "photoLink": "https://lh3.googleusercontent.com/a/default-user=s64",
+        "me": true,
+        "permissionId": "03036434362112142936",
+        "emailAddress": "sjaun@gmx.ch"
+    },
+    "shared": false,
+    "ownedByMe": true,
+    "capabilities": {
+        "canAcceptOwnership": false,
+        "canAddChildren": true,
+        "canAddMyDriveParent": false,
+        "canChangeCopyRequiresWriterPermission": false,
+        "canChangeSecurityUpdateEnabled": false,
+        "canChangeViewersCanCopyContent": false,
+        "canComment": true,
+        "canCopy": false,
+        "canDelete": true,
+        "canDownload": true,
+        "canEdit": true,
+        "canListChildren": true,
+        "canModifyContent": true,
+        "canMoveChildrenWithinDrive": true,
+        "canMoveItemIntoTeamDrive": true,
+        "canMoveItemOutOfDrive": true,
+        "canMoveItemWithinDrive": true,
+        "canReadRevisions": false,
+        "canRemoveChildren": true,
+        "canRemoveMyDriveParent": true,
+        "canRename": true,
+        "canShare": true,
+        "canTrash": true,
+        "canUntrash": true
+    },
+    "viewersCanCopyContent": true,
+    "copyRequiresWriterPermission": false,
+    "writersCanShare": true,
+    "permissions": [{
+        "kind": "drive#permission",
+        "id": "03036434362112142936",
+        "type": "user",
+        "emailAddress": "sjaun@gmx.ch",
+        "role": "owner",
+        "displayName": "Sven Jaun",
+        "photoLink": "https://lh3.googleusercontent.com/a/default-user=s64",
+        "deleted": false,
+        "pendingOwner": false
+    }],
+    "permissionIds": [
+        "03036434362112142936"
+    ],
+    "folderColorRgb": "#8f8f8f",
+    "quotaBytesUsed": "0",
+    "isAppAuthorized": false,
+    "linkShareMetadata": {
+        "securityUpdateEligible": false,
+        "securityUpdateEnabled": true
+    }
+}
