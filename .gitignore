@@ -1,3 +1,5 @@
 __pycache__/
 authorization/token.json
 authorization/credentials.json
+downloads/
+syncTime.json

@@ -1,20 +1,19 @@
-from operator import le
 import drive_helper
-import json
+import apiRequests
+import time
+
 
 def main():
-    drive_helper.setup()
-    drive_helper.updatePropsTest()
-    return
-    custom = drive_helper.getAllFiles()
-    for item in custom:
-        for key in item:
-            if key == 'parents':
-                print(item[key])
-        # print(item)
-        # print("\n")
+    while True:
+        drive_helper.setup()
+        folders = drive_helper.loadFolder()
+        drive_helper.addFiles(folders)
+        drive_helper.checkAndRunFileUpdates(folders)
+        time.sleep(60)
+
 
 
 
 if __name__ == '__main__':
     main()
+    

@@ -20,3 +20,4 @@
 
 # Google Drive API docs
 [API Documentation]("https://developers.google.com/drive/api?hl=de")
+[PIP Library Docs](https://googleapis.github.io/google-api-python-client/docs/dyn/drive_v3.html)
