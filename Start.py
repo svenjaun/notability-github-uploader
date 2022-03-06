@@ -1,5 +1,4 @@
 import driveHelper
-import apiRequests
 import time
 
 
@@ -10,8 +9,6 @@ def main():
         driveHelper.addFiles(folders)
         driveHelper.checkAndRunFileUpdates(folders)
         time.sleep(60)
-
-
 
 
 if __name__ == '__main__':
