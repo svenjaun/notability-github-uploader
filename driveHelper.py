@@ -77,10 +77,8 @@ def setup():
     try:
         service = build('drive', 'v3', credentials=createCredentials())
         apiRequests.setService(service)
-
     except HttpError as error:
-        # TODO(developer) - Handle errors from drive API.
-        print(f'An error occurred: {error}')
+        print(f'Unable to autenticate: {error}')
 
 def loadFolder():
     global folderId

@@ -1,14 +1,14 @@
-import drive_helper
+import driveHelper
 import apiRequests
 import time
 
 
 def main():
     while True:
-        drive_helper.setup()
-        folders = drive_helper.loadFolder()
-        drive_helper.addFiles(folders)
-        drive_helper.checkAndRunFileUpdates(folders)
+        driveHelper.setup()
+        folders = driveHelper.loadFolder()
+        driveHelper.addFiles(folders)
+        driveHelper.checkAndRunFileUpdates(folders)
         time.sleep(60)
 
 
