@@ -1,6 +1,6 @@
 import driveHelper
 import time
-
+from config import INTERVAL
 
 def main():
     while True:
@@ -8,7 +8,7 @@ def main():
         folders = driveHelper.loadFolder()
         driveHelper.addFiles(folders)
         driveHelper.checkAndRunFileUpdates(folders)
-        time.sleep(60)
+        time.sleep(INTERVAL)
 
 
 if __name__ == '__main__':
